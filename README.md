@@ -9,7 +9,7 @@ This package is using v1.13 of rapidxml.
 Install the development version with
 
 ```r
-devtools::install_github("tospig/rapidxml")
+devtools::install_github("dcooley/rapidxml")
 ```
 
 ## Using rapidxml
