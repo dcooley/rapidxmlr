@@ -4,7 +4,7 @@
 #' \dontrun{
 #'
 #' # Include a dependency to rapidxmlr inside a cpp file
-#' // [[Rcpp::export(rapidxmlr)]]
+#' // [[Rcpp::depends(rapidxmlr)]]
 #' include <Rcpp.h>
 #'
 #' }

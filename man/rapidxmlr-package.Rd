@@ -6,15 +6,23 @@
 \alias{rapidxmlr-package}
 \title{Provides XML parsing capability through the 'rapidxml' 'C++' header-only library}
 \description{
-More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Provides XML parsing capability through the 'Rapidxml' 'C++' header-only library.
 }
 \examples{
 \dontrun{
 
 # Include a dependency to rapidxmlr inside a cpp file
-// [[Rcpp::export(rapidxmlr)]]
+// [[Rcpp::depends(rapidxmlr)]]
 include <Rcpp.h>
 
 }
+}
+\author{
+\strong{Maintainer}: David Cooley \email{david.cooley.au@gmail.com}
+
+Other contributors:
+\itemize{
+  \item Marcin Kalicinski (Author of c++ rapidxml library) [contributor]
+}
+
 }
