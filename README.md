@@ -22,8 +22,5 @@ To use rapidxml in your own package, add a dependency to rapidxml to your cpp fi
 #include <Rcpp.h>
 ```
 
-## License
-
-
 
 
